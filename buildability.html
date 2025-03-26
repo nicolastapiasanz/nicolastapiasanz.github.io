@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nicolas Tapia - Buildability Project</title>
+    <meta name="description" content="Nicolas Tapia Website and Portfolio" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/nicolas-tapia.png"
+              alt="Nicolas Tapia Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Nicolás Tapia Sanz</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#timeline" class="header__link">Timeline </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#professional-projects" class="header__link">Professional Projects </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#personal-projects" class="header__link">Personal Projects </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#timeline"> Timeline </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#professional-projects"> Professional Projects </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#personal-projects"> Personal Projects </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Buildability Estimator</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Buildability Estimator is a software tool designed for construction companies to analyze the potential of a plot of land, generating multiple designs within seconds while adapting to the designer’s preferences.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="https://www.lurtis.com/products/buildability-estimator/" class="btn btn--bg" target="_blank">More information</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont"></div>
+            <iframe width="840" height="473" src="https://www.youtube.com/embed/41Q5jUUWEaM?si=vfYIFVcx-uxSZ4c3&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                <b>Buildability Estimator</b> was the second tool I worked on during my time at <b>Lurtis Rules S.L.</b>, where I was primarily responsible for the <b>front-end development</b> in <b>Unity3D</b>. My work focused on <b>UI/UX programming</b>, designing <b>user interactions</b>, integrating the tool with <b>Spain’s cadastral API</b> to retrieve accurate land data, and automating the <b>generation</b> and <b>instantiation</b> of 3D buildings based on the analyzed plots.
+              </p>
+              <p class="project-details__desc-para">
+                Throughout this project, I faced several <b>complex challenges</b>. One of the main ones was handling map visualization in Unity3D using <b>Mapbox</b>, which required detecting <b>real-world coordinates</b> and converting them into a format compatible with the Spanish cadastral system. I also had to understand and process the data formats provided by the cadastral API, ensuring seamless integration. Additionally, I worked with <b>asynchronous</b> API calls in <b>C#</b>, optimizing the tool’s performance while rendering real-time geospatial data retrieved from the cadastral service.
+              </p>
+              <p class="project-details__desc-para">
+                By the time I started working on this tool, my <b>UI</b> development skills in Unity were already <b>solid</b>, which allowed me to adapt quickly to the changing needs of the project. The interface was initially designed in <b>Figma</b>, giving me valuable insight into <b>UI/UX design workflows</b> before moving into actual development. This experience reinforced the importance of establishing a strong visual and functional foundation before beginning implementation.
+              </p>
+              <p class="project-details__desc-para">
+                Beyond UI and interaction development, I also had the opportunity to work with libraries for <b>generating Word and PDF documents</b>, enabling the automatic creation of reports and budget estimates based on the designs produced by the software. Additionally, I deepened my knowledge of <b>C#</b> and <b>LINQ</b>, while also exploring the differences between <b>.NET Framework</b>, <b>.NET Core</b>, and <b>.NET Standard</b>. During development, we encountered compatibility <b>issues</b> between C++ and Unity, particularly with libraries like <b>CGAL</b>, which required troubleshooting and problem-solving to integrate successfully.
+              </p>
+              <p class="project-details__desc-para">
+                This project also expanded my expertise in <b>NuGet package management</b> and introduced me to new Unity features, such as <b>package handling</b> and <b>Assembly Definition</b> files, which helped streamline the development process. Overall, working on Buildability Estimator significantly enhanced my technical skills, particularly in asynchronous programming, API integration, and UI/UX development within Unity3D.
+              </p>
+            </div>
+            <div class="project-details__showcase-img-cont">
+              <div class="carrousel" style="--object-fit:cover">
+                <div class="slides">
+                  <img src="./assets/images/buildability-1.webp">
+                  <img src="./assets/images/buildability-2.webp">
+                  <img src="./assets/images/buildability-3.webp">
+                </div>
+              </div>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Skills</h3>
+              <div class="skills">
+                <div class="skills__skill">Unity3D</div>
+                <div class="skills__skill">C#</div>
+                <div class="skills__skill">C++</div>
+                <div class="skills__skill">LINQ</div>
+                <div class="skills__skill">Git (Command Lines & Sourcetree)</div>
+                <div class="skills__skill">Visual Studio Professional + ReSharper</div>
+                <div class="skills__skill">Assembly Definitions</div>
+                <div class="skills__skill">Bash + Python</div>
+                <div class="skills__skill">UI/UX + Figma</div>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nicolastapiasanz/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/nicolastapiasanz">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Nicolas Tapia Sanz</h4>
+            <p class="main-footer__short-desc">
+              A Unity3D and .NET developer building games, tools, and interactive applications, bridging technology and design to create seamless experiences.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2025. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
